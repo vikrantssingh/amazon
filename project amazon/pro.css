@@ -1,0 +1,473 @@
+* {
+    margin: 0px;
+    font-family: Areal;
+    border: border-box;
+
+}
+
+
+
+#navbar {
+    height: 60px;
+    color: white;
+
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#nav-logo {
+    height: 50px;
+    width: 130px;
+}
+
+#logo {
+    height: 50px;
+    width: 130px;
+    
+    background-image: url(amma.png);
+    background-size: cover;
+}
+
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* box 2 deliver to India */
+
+.nav-address {
+
+}
+
+
+.deliver {
+    margin-left: 25px;
+    color:#cccccc;
+    font-size: 1rem;
+
+}
+
+.ind {
+    font-size: 1.4rem;
+
+}
+
+.add-icon-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  box 3 search bar */ 
+
+.nav-search {
+    height: 40px;
+    width: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    background-color: pink;
+    
+}    
+
+
+#sel {
+    border: none;
+    width: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+#in-sear {
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+.sear-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* box 4  */
+
+.up {
+    font-size: 0.7rem;
+}
+
+.down {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+/* box 5 cart */
+
+
+.nav-cart i {
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+
+
+/* new div  navbar 2*/
+
+
+#navbar2 {
+    height: 40px;
+    color: white;
+    background-color: #13073b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav2-comp {
+    font-weight: 600;
+    font-size: 14px;
+
+    
+}
+
+#prime {
+    background-color: transparent;
+}
+
+#d-img {
+    height: 250px;
+    background-color: blue;
+    background-image: url(herooo.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#left {
+    width: 100%;
+    position: relative;
+    
+}
+#d-img i {
+    width: 100%;
+    
+
+    font-size: 40px;
+}
+
+/* new 6 boxes in amazon */
+
+
+#im-6 {
+    background-color: rgb(248, 208, 215);
+    height: 1460px;
+    
+}
+
+.uppp {
+    display:flex;
+
+    justify-content: space-evenly;
+    
+
+}
+.up-6 {
+    height: 400px;
+    width: 320px;
+    font-size: larger;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: gainsboro;
+    
+}
+
+.b6i {
+    font-size: medium;
+    font-weight: 300;
+    height: 140px;
+    width: 130px;
+}
+
+
+.two2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.see {
+    color: blue;
+    text-align: center;
+}
+
+.see:hover {
+    color: black;
+}
+
+
+
+
+#aaaaa {
+    height: 260px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 600;
+   
+}
+.kit {
+    margin: 10px;
+    font-size: larger;
+}
+
+.img-mar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+
+.seee {
+    font-size: large;
+    color: blue;
+    font-weight: 500;
+}
+
+
+.seee:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer part css */
+
+footer {
+    height: 650px;
+    background-color: #151b22;
+    color: white;
+
+
+}
+
+
+
+#f11 {
+    height: 40px;
+    text-align: center;
+    
+    background-color: #051355;
+
+}
+#f1f1 {
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#f1f1:hover {
+    background-color: #010733;
+}
+
+
+#f22 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f2fh {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 2px;
+}
+
+.f2fd {
+    margin: 4px;
+}
+
+
+.f3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.aall {
+    border: 0.5px solid white;
+    height: 20px;
+    margin: 30px;
+    padding-right: 5px;
+
+}
+
+.f3f {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+#lll {
+    font-size: 12px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+
+
+
+
+.und:hover{
+    text-decoration: underline;
+    
+}
+
+.f2fd:hover {
+    text-decoration: underline;
+}
+
+
+#sign {
+    height: 120px;
+    text-align: center;
+}
+
+#sgn1 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+#sgn2 {
+    
+    border-radius: 50px;
+    background-color: rgb(255, 216, 40);
+    height: 30px;
+    width: 150px;
+    position: relative;
+    left: 45%;
+    margin: 5px;
+
+}
+#ssss {
+    position: relative;
+    top: 5px;
+}
+
+#sgn2:hover {
+    background-color: rgb(245, 202, 10);
+}
+
+.sgn3 {
+    font-size: 13px;
+
+}
+
+#sgn32 {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+#sgn32:hover {
+    color: black;
+}
+
+
+#lastl2 {
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.ll22 {
+    position: relative;
+    left: 450px;
+    
+    width:500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.finl:hover {
+    text-decoration: underline;
+}
