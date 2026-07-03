@@ -1,5 +1,7 @@
 # Amazon Front-End Clone
 
+**Live Demo:** [https://vikrantssingh.github.io/amazon/](https://vikrantssingh.github.io/amazon/)
+
 A beginner-friendly front-end clone of the Amazon homepage built using HTML and CSS. This project focuses on replicating the core UI elements of Amazon, such as the navigation bar, search section, and product display grids, to practice layout building and styling.
 
 ## Features
